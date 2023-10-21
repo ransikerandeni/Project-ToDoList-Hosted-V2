@@ -1,0 +1,91 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to top,
+    #ff6969 0%,
+    #ff6969 50%,
+    #fff5e0 50%,
+    #fff5e0 100%
+  );
+  background-attachment: fixed;
+}
+
+li {
+  font-weight: bold;
+}
+
+.floatingBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  width: 370px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#inputField1 {
+  size: 40px;
+  border-radius: 10px;
+  border: grey;
+}
+
+#checkBox[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.submitButton1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #141e46;
+  border: #141e46;
+  color: white;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 30px;
+}
+
+.form-check {
+  margin-bottom: 10px;
+  /* Add spacing between each checkbox-label pair */
+}
+
+/* Add styles for the active class */
+.active {
+  color: #c70039;
+  background-color: #141e46;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.firstH1Heading {
+  font-family: "Caveat", cursive;
+  
+}
+
+.formAreaClass {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer {
+  background-color: #333; /* Set the background color for the footer */
+  color: white; /* Set the text color */
+  padding: 10px; /* Add some padding to the footer for spacing */
+  text-align: left; /* Center-align the content in the footer */
+  position: absolute; /* Position the footer absolutely */
+  bottom: 0; /* Position it at the bottom of the viewport */
+  width: 100%;
+}
+
+
